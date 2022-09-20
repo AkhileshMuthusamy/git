@@ -22,6 +22,12 @@ or
 git commit --amend -m "Updated commit message"
 ```
 
+## Modify commit author
+
+```sh
+git commit --amend --no-edit --reset-author
+```
+
 ## Adding files to last commit with updating commit message
 
 ```

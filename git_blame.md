@@ -17,6 +17,11 @@ Create new file `.git-blame-ignore-revs` and add the commit-id in the file.
 ```
 git config --local blame.ignoreRevsFile .git-blame-ignore-revs
 ```
+or (just for the project)
+
+```
+git config blame.ignoreRevsFile .vscode/.git-blame-ignore-revs
+```
 
 
 Refer: https://michaelheap.com/git-ignore-rev/
